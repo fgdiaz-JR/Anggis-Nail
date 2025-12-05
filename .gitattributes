@@ -1,0 +1,28 @@
+# Normalize text files and mark binaries
+* text=auto
+
+# Force LF for common source files
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.html   text eol=lf
+*.json   text eol=lf
+
+# Binary files
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.eot    binary
+*.ttf    binary
+*.woff   binary
+*.woff2  binary
+
+# Prevent Git from trying to merge generated files
+dist/** -text
+build/** -text
