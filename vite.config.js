@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 
-// Ajusta `base` al nombre del repositorio para GitHub Pages (proyecto "Anggis-Nails").
+// Ajusta `base` al nombre correcto del repositorio para GitHub Pages (proyecto "Anggis-Nail").
 export default defineConfig({
-  base: '/Anggis-Nails/'
+  base: '/Anggis-Nail/'
 })
