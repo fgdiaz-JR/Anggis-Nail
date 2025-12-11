@@ -142,7 +142,7 @@ import ReservationModal from './components/ReservationModal'
             <div className="flex justify-between items-center h-12 md:h-16">
               {/* Logo */}
               <a href="#home" className="flex-shrink-0 flex items-center gap-3">
-                <img src="/images/Anggis_Nails_logo_-removebg-preview.png" alt="Anggis Nails" className="w-14 h-14 md:w-16 md:h-16 object-contain" />
+                <img src="./images/Anggis_Nails_logo_-removebg-preview.png" alt="Anggis Nails" className="w-14 h-14 md:w-16 md:h-16 object-contain" />
                 <div>
                   <span className="text-2xl font-extrabold tracking-tight text-slate-900">
                     ANGGIS
