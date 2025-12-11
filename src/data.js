@@ -2,12 +2,12 @@
 export const galleryImages = [
   // NOTE: please copy the provided images into `public/images` with these filenames.
   // The user requested the pedicure image be used for the 'Pedicura' slot.
-  { id: 1, url: '/images/pedicure.jpg', alt: 'Pedicura' },
-  { id: 2, url: '/images/nails-1.jpg', alt: 'Nail art - Diseño 1' },
-  { id: 3, url: '/images/nails-2.jpg', alt: 'Nail art - Diseño 2' },
-  { id: 4, url: '/images/nails-3.jpg', alt: 'Nail art - Diseño 3' },
-  { id: 5, url: '/images/nails-4.jpg', alt: 'Nail art - Diseño 4' },
-  { id: 6, url: '/images/nails-5.jpg', alt: 'Nail art - Diseño 5' }
+  { id: 1, url: './images/pedicure.jpg', alt: 'Pedicura' },
+  { id: 2, url: './images/nails-1.jpg', alt: 'Nail art - Diseño 1' },
+  { id: 3, url: './images/nails-2.jpg', alt: 'Nail art - Diseño 2' },
+  { id: 4, url: './images/nails-3.jpg', alt: 'Nail art - Diseño 3' },
+  { id: 5, url: './images/nails-4.jpg', alt: 'Nail art - Diseño 4' },
+  { id: 6, url: './images/nails-5.jpg', alt: 'Nail art - Diseño 5' }
 ]
 
 export const navLinks = [
