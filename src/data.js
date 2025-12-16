@@ -14,6 +14,7 @@ export const navLinks = [
   { name: 'Inicio', href: '#home' },
   { name: 'Servicios', href: '#services' },
   { name: 'Galería', href: '#gallery' },
+  { name: 'Nosotros', href: '#about' },
   { name: 'Contacto', href: '#contact' }
 ]
 
@@ -47,4 +48,26 @@ export const services = [
   'Retoque Uñas Acrílicas',
   'Uñas Press On',
   'Dipping'
+]
+
+export const mission = {
+  title: 'Misión',
+  description: 'En Anggis Nails ofrecemos servicios de manicura y pedicura a domicilio con un enfoque en la calidad, la higiene y la comodidad. Trabajamos con productos de excelente calidad y técnicas especializadas para brindar una atención personalizada, amable y segura, garantizando una experiencia de belleza extraordinaria en cada visita'
+}
+
+export const vision = {
+  title: 'Visión',
+  description: 'Consolidar una comunidad de clientes que reconozca a Anggis Nails como su aliada de confianza para el cuidado de manos y pies, destacándonos por nuestra calidad de servicio, precios accesibles y diseños innovadores que nos posicionen como un referente en belleza y bienestar.'
+}
+
+export const values = [
+  { name: 'Calidad', description: 'Ofrecemos trabajos precisos, duraderos y profesionales en cada servicio.' },
+  { name: 'Higiene', description: 'Mantenemos un estricto protocolo de limpieza y desinfección para garantizar tu seguridad.' },
+  { name: 'Puntualidad', description: 'Valoramos tu tiempo. Cumplimos horarios y llegamos a tu domicilio con total responsabilidad.' },
+  { name: 'Comodidad', description: 'Llevamos la experiencia del salón directamente a tu hogar, adaptándonos a tu espacio y necesidades.' },
+  { name: 'Creatividad', description: 'Creamos diseños únicos y personalizados que reflejan tu estilo.' },
+  { name: 'Empatía', description: 'Brindamos un trato amable, respetuoso y cercano para que disfrutes un momento solo para ti.' },
+  { name: 'Responsabilidad', description: 'Nos comprometemos con la calidad del servicio, los materiales y tu satisfacción.' },
+  { name: 'Elegancia', description: 'Cada acabado es delicado, limpio y estético, pensado para resaltar tu belleza.' },
+  { name: 'Confianza', description: 'Construimos relaciones basadas en transparencia, seguridad y profesionalismo.' }
 ]

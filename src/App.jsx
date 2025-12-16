@@ -21,7 +21,7 @@ import Button from './components/Button'
 import ReservationModal from './components/ReservationModal'
   import ServiceCard from './components/ServiceCard'
   import TestimonialCard from './components/TestimonialCard'
-  import { galleryImages, navLinks, giftCards } from './data'
+  import { galleryImages, navLinks, giftCards, mission, vision, values } from './data'
 
   const App = () => { 
     const [scrolled, setScrolled] = useState(false);
@@ -417,6 +417,53 @@ import ReservationModal from './components/ReservationModal'
                 <li>Para el servicio a domicilio, prepara un espacio limpio y con buena luz para trabajar cómodamente.</li>
                 <li>Si no es posible realizar la visita por falta de acceso o aviso tardío, podríamos aplicar una tarifa de desplazamiento.</li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* --- ABOUT: MISSION, VISION, VALUES --- */}
+        <section id="about" className="py-24 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-slate-900 mb-4">Nosotros</h2>
+              <p className="text-slate-600 max-w-2xl mx-auto">Conoce la esencia de Anggis Nails: nuestra misión, visión y los valores que nos guían.</p>
+            </div>
+
+            {/* Mission and Vision */}
+            <div className="grid md:grid-cols-2 gap-12 mb-16">
+              {/* Mission */}
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-8 border border-purple-100">
+                <h3 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                  <Heart className="text-purple-600" size={28} />
+                  {mission.title}
+                </h3>
+                <p className="text-slate-700 leading-relaxed">{mission.description}</p>
+              </div>
+
+              {/* Vision */}
+              <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-8 border border-blue-100">
+                <h3 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                  <Star className="text-blue-600" size={28} />
+                  {vision.title}
+                </h3>
+                <p className="text-slate-700 leading-relaxed">{vision.description}</p>
+              </div>
+            </div>
+
+            {/* Values */}
+            <div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 text-center">Nuestros Valores</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                {values.map((value, index) => (
+                  <div key={index} className="bg-slate-50 rounded-lg p-6 border border-slate-200 hover:shadow-lg transition-shadow">
+                    <h4 className="text-lg font-bold text-purple-600 mb-3 flex items-center gap-2">
+                      <CheckCircle size={20} />
+                      {value.name}
+                    </h4>
+                    <p className="text-slate-700 text-sm leading-relaxed">{value.description}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>
