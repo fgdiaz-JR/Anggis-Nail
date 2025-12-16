@@ -14,7 +14,8 @@ import {
   ArrowRight,
   Clock,
   Heart,
-  CheckCircle
+  CheckCircle,
+  Facebook
 } from 'lucide-react'
 
 import Button from './components/Button'
@@ -240,7 +241,7 @@ import ReservationModal from './components/ReservationModal'
                   <Calendar size={18} />
                   Agendar Cita
                 </Button>
-                <a href="https://www.instagram.com/angeles91264?igsh=Z2gxODRhaTdyendq" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/anggis.nails?igsh=MTM5dXdicnVpdzZ1YQ==" target="_blank" rel="noopener noreferrer">
                   <Button>
                     <Instagram size={18} />
                     Ver Portafolio
@@ -338,7 +339,7 @@ import ReservationModal from './components/ReservationModal'
               </div>
             )}
             <div className="mt-6 text-center">
-              <a href="https://www.instagram.com/angeles91264?igsh=Z2gxODRhaTdyendq" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/anggis.nails?igsh=MTM5dXdicnVpdzZ1YQ==" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-slate-900 hover:bg-purple-50 border-none mx-auto">
                   Ver Feed Completo
                 </Button>
@@ -545,12 +546,15 @@ import ReservationModal from './components/ReservationModal'
                   Cuidamos tus uñas con técnica profesional y mucho cariño — servicio a domicilio para tu comodidad.
                 </p>
                 <div className="flex gap-4 pt-2">
-                  <div className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 hover:bg-purple-100 transition-colors cursor-pointer">
+                  <a href="https://www.instagram.com/anggis.nails?igsh=MTM5dXdicnVpdzZ1YQ==" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 hover:bg-purple-100 transition-colors">
                     <Instagram size={20} />
-                  </div>
-                  <div className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 hover:bg-purple-100 transition-colors cursor-pointer">
+                  </a>
+                  <a href="https://www.facebook.com/share/1BoFtUFzLv/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 hover:bg-purple-100 transition-colors">
+                    <Facebook size={20} />
+                  </a>
+                  <a href="mailto:anggis.nails@example.com" className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 hover:bg-purple-100 transition-colors">
                     <Mail size={20} />
-                  </div>
+                  </a>
                 </div>
               </div>
 
